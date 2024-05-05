@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+font:normal 100%/1.2em "Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
+}
+/*en tête*/
+header{
+  display: flex;
+  justify-content: center;
+  background-color:#518D9D;
+  height: 140px;
+ 
+}
+
+.bandeau{
+  position: relative; /* Ajouter une position relative */
+  top: 85px; /* Ajuster cette valeur selon votre besoin */
+  margin-left: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.bienvenue{
+  position: relative; /* Ajouter une position relative */
+  top: 130px; /* Ajuster cette valeur selon votre besoin */
+  margin-left: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+
+}
+
+.nav1 {
+  position: absolute;
+  right: 190px; /* Ajustez la position par rapport au bord droit selon vos besoins */
+  top: 50px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center; /* Pour aligner verticalement les éléments du menu */
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 40px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+  display: flex;
+  align-items: center; /* Pour aligner verticalement le texte avec les icônes */
+}
+.cc{
+  position: fixed;
+            top: 140px; /* Place l'image à 100 pixels du haut */
+            right: -150px;
+            width: 800px;
+            height: 700px;
+            object-fit: contain;
+}
+
+.intro{
+color: #000000;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 19.299999237060547px;
+  font-weight: 500;
+  position: relative;
+  width: 718px;
+  top: 200px;
+  left: 50px; 
+}
+
+#btn-demarer {
+  width: 209px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #E48883;
+  color: #ffffff;
+  position: absolute;
+  top: 75%;
+  transform: translateY(-50%);
+  left: 50px; 
+  cursor: pointer;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Page voir les voitures*/
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Trois colonnes de largeur égale */
+  gap: 20px; /* Espacement entre les éléments */
+  padding: 20px;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #e44d26;
+  margin-bottom: 10px;
+}
+
+
+.product-image img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.product-image2 img {
+  width: 200;
+  height: 100;
+}
